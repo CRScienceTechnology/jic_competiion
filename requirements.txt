@@ -1,0 +1,16 @@
+# Python 版本要求 3.
+# 开发依赖
+i2cdev
+adafruit-extended-bus 
+adafruit-circuitpython-pca9685 
+adafruit-circuitpython-motor
+Adafruit-Blinka 
+smbus2
+
+# 测试依赖
+pytest>=7.0
+pytest-mock
+pytest-cov
+flake8
+mypy
+pre-commit
